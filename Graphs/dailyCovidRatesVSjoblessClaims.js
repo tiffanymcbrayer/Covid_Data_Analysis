@@ -1,4 +1,4 @@
-let filename = 'data/weeklyCovidRatesVSjoblessClaims.csv';
+let filename = 'data/dailyCovidRatesVSjoblessClaims.js.csv';
 
 d3.csv(filename).then(function(loadedData) {
   
