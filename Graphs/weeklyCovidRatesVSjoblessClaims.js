@@ -10,7 +10,7 @@ d3.csv(filename).then(function(loadedData) {
   for (let i=0; i < loadedData.length; i++){
     //console.log(loadedData[i]);
     
-    let date = loadedData[i].Date;
+    let date = loadedData[i].date;
     labels.push(date);
     let d1 = (loadedData[i].weeklyCases/1000); 
     data1.push(d1);
