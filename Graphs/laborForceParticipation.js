@@ -1,4 +1,4 @@
-let filename = 'data/LaborForcePart.csv';
+let filename = 'data/laborForceParticipation.csv';
 
 d3.csv(filename).then(function(loadedData) {
   
