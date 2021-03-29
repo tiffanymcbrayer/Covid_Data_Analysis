@@ -1,4 +1,4 @@
-let filename = 'data/GDPvsRPCE.csv';
+let filename = 'data/GDPvsPCE.csv';
 
 d3.csv(filename).then(function(loadedData) {
   
