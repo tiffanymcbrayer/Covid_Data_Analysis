@@ -1,4 +1,4 @@
-let filename = 'data/CovidVsVaccines.csv';
+let filename = 'data/dailyCasesvsVaccines.csv';
 
 d3.csv(filename).then(function(loadedData) {
     
