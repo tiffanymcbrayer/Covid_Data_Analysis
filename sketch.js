@@ -1,7 +1,5 @@
-// csv file we want to load
 let filename = 'data/GDPvsRPCE.csv';
 
-// all of your code should be inside this command
 d3.csv(filename).then(function(loadedData) {
   
     
@@ -10,7 +8,6 @@ d3.csv(filename).then(function(loadedData) {
   let data2 = [];
   
   for (let i=0; i < loadedData.length; i++){
-    //console.log(loadedData[i]);
     
     let date = loadedData[i].date;
     labels.push(date);
@@ -60,12 +57,8 @@ d3.csv(filename).then(function(loadedData) {
       }
     }
   };
-  //Chart.defaults.global.defaultFontFamily = 'Helvetic Neue', 'Helvetica,', 'Arial', 'sans-serif';
-  //Chart.defaults.global.defaultFontColor = 'rgb(100,100,100)';
-  //Chart.defaults.global.defaultFontSize = 16;
   
   let chart = new Chart(document.getElementById('canvas'), options);
-  
-  
+ 
 });
 
