@@ -22,7 +22,6 @@ Real Personal Consumption Expenditures:
 https://fred.stlouisfed.org/graph/?id=PCECC96,#
 
 Labor Force Participation:
-
 Women:
 https://fred.stlouisfed.org/series/LNS11300002
 Men:
