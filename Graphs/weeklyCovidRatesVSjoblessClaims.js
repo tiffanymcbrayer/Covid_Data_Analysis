@@ -12,9 +12,9 @@ d3.csv(filename).then(function(loadedData) {
     
     let date = loadedData[i].date;
     labels.push(date);
-    let d1 = (loadedData[i].weeklyCases/1000); 
+    let d1 = loadedData[i].weeklyCases; 
     data1.push(d1);
-    let d2 = (loadedData[i].joblessClaims/1000); 
+    let d2 = loadedData[i].joblessClaims; 
     data2.push(d2);
    
     
@@ -27,7 +27,7 @@ d3.csv(filename).then(function(loadedData) {
     data: {
       labels: labels,
       datasets:[{
-        label: 'Cases (per 1,000)',
+        label: 'Cases',
         yAxisID: 'cases',
         data: data1,
         fill: false,
@@ -35,7 +35,7 @@ d3.csv(filename).then(function(loadedData) {
         pointHoverRadius: 4,
         borderColor:'rgba(255,99,132,1)',
       }, {
-        label: 'Jobless Claims (per 1,000)',
+        label: 'Jobless Claims',
         yAxisID: 'joblessClaims',
         data: data2,
         fill: false,
