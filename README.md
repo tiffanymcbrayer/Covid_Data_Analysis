@@ -34,5 +34,4 @@ Hispanic:
 https://fred.stlouisfed.org/series/LNS11300009
 
 ## Sources for Timeline
-
 https://www.cdc.gov/
